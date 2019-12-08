@@ -35,7 +35,7 @@ You can use the following TDR (timeout detection and recovery)-related registry 
     KeyPath   : HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\GraphicsDrivers
     KeyValue  : TdrDelay
     ValueType : REG_DWORD
-    ValueData : Number of seconds to delay. 2 seconds is the default value.
+    ValueData : Number of seconds to delay. 60 seconds is the default value.
     ```
 
 -   **TdrDdiDelay**
@@ -46,7 +46,8 @@ You can use the following TDR (timeout detection and recovery)-related registry 
     KeyPath   : HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\GraphicsDrivers
     KeyValue  : TdrDdiDelay
     ValueType : REG_DWORD
-    ValueData : Number of seconds to leave the driver. 5 seconds is the default value.
+    ValueData : Number of seconds to leave the driver. 60
+    seconds is the default value.
     ```
 
 -   **TdrTestMode**
